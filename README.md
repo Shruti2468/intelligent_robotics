@@ -5,6 +5,7 @@ Multi-Robot Warehouse Automation With Priority-Based Scheduling
 cd ~/intelligent_robotics
 source install/setup.bash
 
+
 # Terminal 1
 ros2 launch warehouse_world world.launch.py
 

@@ -22,15 +22,17 @@ def generate_launch_description():
         ),
 
         # 2. Spawn in Gazebo
+
         Node(
             package='ros_gz_sim',
             executable='create',
             arguments=[
                 '-name', 'warehouse_amr',
                 '-file', robot_file,
-                '-x', '0', '-y', '0', '-z', '0.12'
-                '-Y', '0.0',   # ← add this — yaw in radians
-
+                '-x', '0',
+                '-y', '0',
+                '-z', '0.12',
+                '-Y', '0.0',
             ],
             output='screen'
         ),

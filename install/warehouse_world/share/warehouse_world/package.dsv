@@ -4,6 +4,3 @@ source;share/warehouse_world/hook/pythonpath.sh
 source;share/warehouse_world/hook/ament_prefix_path.ps1
 source;share/warehouse_world/hook/ament_prefix_path.dsv
 source;share/warehouse_world/hook/ament_prefix_path.sh
-source;../../build/warehouse_world/share/warehouse_world/hook/pythonpath_develop.ps1
-source;../../build/warehouse_world/share/warehouse_world/hook/pythonpath_develop.dsv
-source;../../build/warehouse_world/share/warehouse_world/hook/pythonpath_develop.sh
