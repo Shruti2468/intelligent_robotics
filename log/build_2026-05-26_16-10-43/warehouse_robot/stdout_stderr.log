@@ -1,0 +1,13 @@
+running develop
+running egg_info
+writing warehouse_robot.egg-info/PKG-INFO
+writing dependency_links to warehouse_robot.egg-info/dependency_links.txt
+writing requirements to warehouse_robot.egg-info/requires.txt
+writing top-level names to warehouse_robot.egg-info/top_level.txt
+reading manifest file 'warehouse_robot.egg-info/SOURCES.txt'
+writing manifest file 'warehouse_robot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/shruti/warehouse_ws/install/warehouse_robot/lib/python3.12/site-packages/warehouse-robot.egg-link (link to .)
+
+Installed /home/shruti/warehouse_ws/build/warehouse_robot
+running symlink_data

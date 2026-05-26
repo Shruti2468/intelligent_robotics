@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+launch/world.launch.py
+resource/warehouse_world
+warehouse_world/__init__.py
+warehouse_world.egg-info/PKG-INFO
+warehouse_world.egg-info/SOURCES.txt
+warehouse_world.egg-info/dependency_links.txt
+warehouse_world.egg-info/requires.txt
+warehouse_world.egg-info/top_level.txt
+warehouse_world.egg-info/zip-safe
+worlds/warehouse.world

@@ -1,0 +1,15 @@
+[0.826s] Invoking command in '/home/shruti/warehouse_ws/build/warehouse_world': PYTHONPATH=/home/shruti/warehouse_ws/build/warehouse_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shruti/warehouse_ws/install/warehouse_world/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shruti/warehouse_ws/build/warehouse_world/build --no-deps symlink_data
+[1.013s] running develop
+[1.118s] running egg_info
+[1.130s] writing warehouse_world.egg-info/PKG-INFO
+[1.131s] writing dependency_links to warehouse_world.egg-info/dependency_links.txt
+[1.132s] writing requirements to warehouse_world.egg-info/requires.txt
+[1.132s] writing top-level names to warehouse_world.egg-info/top_level.txt
+[1.154s] reading manifest file 'warehouse_world.egg-info/SOURCES.txt'
+[1.154s] writing manifest file 'warehouse_world.egg-info/SOURCES.txt'
+[1.166s] running build_ext
+[1.166s] Creating /home/shruti/warehouse_ws/install/warehouse_world/lib/python3.12/site-packages/warehouse-world.egg-link (link to .)
+[1.166s] 
+[1.167s] Installed /home/shruti/warehouse_ws/build/warehouse_world
+[1.167s] running symlink_data
+[1.201s] Invoked command in '/home/shruti/warehouse_ws/build/warehouse_world' returned '0': PYTHONPATH=/home/shruti/warehouse_ws/build/warehouse_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shruti/warehouse_ws/install/warehouse_world/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shruti/warehouse_ws/build/warehouse_world/build --no-deps symlink_data
