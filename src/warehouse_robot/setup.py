@@ -40,7 +40,10 @@ setup(
         ],
     },
     entry_points={
-        'console_scripts': [
-        ],
+    'console_scripts': [
+        'robot_controller = warehouse_robot.robot_controller:main',
+        'path_planner = warehouse_robot.path_planner:main',   # ← ADD THIS LINE
+    ],
+
     },
 )

@@ -476,7 +476,7 @@
 
   <!-- Differential drive controller -->
   <gazebo>
-    <plugin filename="gz-sim-diff-drive-system"
+    <plugin filename="libgz-sim-diff-drive-system"
             name="gz::sim::systems::DiffDrive">
       <left_joint>wheel_fl_joint</left_joint>
       <left_joint>wheel_rl_joint</left_joint>

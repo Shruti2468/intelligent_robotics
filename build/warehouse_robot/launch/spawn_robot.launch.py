@@ -1,1 +1,1 @@
-/home/shruti/warehouse_ws/src/warehouse_robot/launch/spawn_robot.launch.py
+/home/shruti/intelligent_robotics/src/warehouse_robot/launch/spawn_robot.launch.py

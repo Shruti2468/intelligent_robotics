@@ -1,0 +1,18 @@
+[0.600s] Invoking command in '/home/shruti/intelligent_robotics/build/warehouse_robot': PYTHONPATH=/home/shruti/intelligent_robotics/build/warehouse_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shruti/intelligent_robotics/build/warehouse_robot/build --no-deps symlink_data
+[0.785s] running develop
+[0.888s] running egg_info
+[0.899s] writing warehouse_robot.egg-info/PKG-INFO
+[0.899s] writing dependency_links to warehouse_robot.egg-info/dependency_links.txt
+[0.899s] writing entry points to warehouse_robot.egg-info/entry_points.txt
+[0.900s] writing requirements to warehouse_robot.egg-info/requires.txt
+[0.900s] writing top-level names to warehouse_robot.egg-info/top_level.txt
+[0.922s] reading manifest file 'warehouse_robot.egg-info/SOURCES.txt'
+[0.922s] writing manifest file 'warehouse_robot.egg-info/SOURCES.txt'
+[0.934s] running build_ext
+[0.934s] Creating /home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages/warehouse-robot.egg-link (link to .)
+[0.934s] Installing path_planner script to /home/shruti/intelligent_robotics/install/warehouse_robot/lib/warehouse_robot
+[0.935s] Installing robot_controller script to /home/shruti/intelligent_robotics/install/warehouse_robot/lib/warehouse_robot
+[0.935s] 
+[0.935s] Installed /home/shruti/intelligent_robotics/build/warehouse_robot
+[0.935s] running symlink_data
+[0.955s] Invoked command in '/home/shruti/intelligent_robotics/build/warehouse_robot' returned '0': PYTHONPATH=/home/shruti/intelligent_robotics/build/warehouse_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shruti/intelligent_robotics/build/warehouse_robot/build --no-deps symlink_data

@@ -1,0 +1,161 @@
+[0.000000] (-) TimerEvent: {}
+[0.000686] (-) JobUnselected: {'identifier': 'warehouse_world'}
+[0.000768] (warehouse_robot) JobQueued: {'identifier': 'warehouse_robot', 'dependencies': OrderedDict()}
+[0.005520] (warehouse_robot) JobStarted: {'identifier': 'warehouse_robot'}
+[0.101159] (-) TimerEvent: {}
+[0.203431] (-) TimerEvent: {}
+[0.304668] (-) TimerEvent: {}
+[0.404986] (-) TimerEvent: {}
+[0.505733] (-) TimerEvent: {}
+[0.607057] (-) TimerEvent: {}
+[0.707952] (-) TimerEvent: {}
+[0.808776] (-) TimerEvent: {}
+[0.909952] (-) TimerEvent: {}
+[1.011472] (-) TimerEvent: {}
+[1.112676] (-) TimerEvent: {}
+[1.215346] (-) TimerEvent: {}
+[1.319886] (-) TimerEvent: {}
+[1.420882] (-) TimerEvent: {}
+[1.521441] (-) TimerEvent: {}
+[1.621961] (-) TimerEvent: {}
+[1.727949] (-) TimerEvent: {}
+[1.828486] (-) TimerEvent: {}
+[1.929437] (-) TimerEvent: {}
+[2.030743] (-) TimerEvent: {}
+[2.131227] (-) TimerEvent: {}
+[2.232768] (-) TimerEvent: {}
+[2.333971] (-) TimerEvent: {}
+[2.434468] (-) TimerEvent: {}
+[2.535575] (-) TimerEvent: {}
+[2.637066] (-) TimerEvent: {}
+[2.737678] (-) TimerEvent: {}
+[2.838130] (-) TimerEvent: {}
+[2.939206] (-) TimerEvent: {}
+[3.040423] (-) TimerEvent: {}
+[3.141490] (-) TimerEvent: {}
+[3.242111] (-) TimerEvent: {}
+[3.343605] (-) TimerEvent: {}
+[3.444922] (-) TimerEvent: {}
+[3.545350] (-) TimerEvent: {}
+[3.647310] (-) TimerEvent: {}
+[3.748344] (-) TimerEvent: {}
+[3.848788] (-) TimerEvent: {}
+[3.949425] (-) TimerEvent: {}
+[4.050494] (-) TimerEvent: {}
+[4.151825] (-) TimerEvent: {}
+[4.252980] (-) TimerEvent: {}
+[4.353909] (-) TimerEvent: {}
+[4.454315] (-) TimerEvent: {}
+[4.554860] (-) TimerEvent: {}
+[4.655328] (-) TimerEvent: {}
+[4.756422] (-) TimerEvent: {}
+[4.857071] (-) TimerEvent: {}
+[4.957980] (-) TimerEvent: {}
+[5.059493] (-) TimerEvent: {}
+[5.160580] (-) TimerEvent: {}
+[5.260903] (-) TimerEvent: {}
+[5.361469] (-) TimerEvent: {}
+[5.370355] (warehouse_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/shruti/intelligent_robotics/build/warehouse_robot/build'], 'cwd': '/home/shruti/intelligent_robotics/build/warehouse_robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'shruti', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/shruti/.vscode-server/bin/f6cfa2ea2403534de03f069bdf160d06451ed282/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/shruti', 'OLDPWD': '/home/shruti', 'TERM_PROGRAM_VERSION': '1.121.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-fd604e9a-65ee-42cb-b95a-7c7409fa3e39.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/shruti/.vscode-server/bin/f6cfa2ea2403534de03f069bdf160d06451ed282/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/shruti/.vscode-server/bin/f6cfa2ea2403534de03f069bdf160d06451ed282/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/shruti/warehouse_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shruti', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/544_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/shruti/.vscode-server/bin/f6cfa2ea2403534de03f069bdf160d06451ed282/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/libnvvp:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Java/jdk-20/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.2.2/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Google/Cloud SDK/google-cloud-sdk/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Amazon/AWSCLIV2/:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/Program Files/MariaDB 11.8/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Users/shruti suresh/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/shruti suresh/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/shruti suresh/npm-global:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolki:/mnt/c/Users/shruti suresh/Downloads/arduino-cli_1.3.1_Windows_64bit:/mnt/c/Users/shruti suresh/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/shruti suresh/AppData/Local/Programs/Ollama:/mnt/c/Users/shruti suresh/anaconda3/Library/bin/conda.bat:/mnt/c/Users/shruti suresh/anaconda3/Scripts/conda.exe:/mnt/c/Users/shruti suresh/anaconda3/condabin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-450f9ad4d2.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/shruti/warehouse_ws/install/warehouse_world:/home/shruti/warehouse_ws/install/warehouse_robot:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/shruti/intelligent_robotics/build/warehouse_robot', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shruti/intelligent_robotics/build/warehouse_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages:/home/shruti/warehouse_ws/build/warehouse_world:/home/shruti/warehouse_ws/install/warehouse_world/lib/python3.12/site-packages:/home/shruti/warehouse_ws/build/warehouse_robot:/home/shruti/warehouse_ws/install/warehouse_robot/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}, 'shell': False}
+[5.461652] (-) TimerEvent: {}
+[5.562168] (-) TimerEvent: {}
+[5.662555] (-) TimerEvent: {}
+[5.763038] (-) TimerEvent: {}
+[5.863886] (-) TimerEvent: {}
+[5.965080] (-) TimerEvent: {}
+[6.066024] (-) TimerEvent: {}
+[6.166720] (-) TimerEvent: {}
+[6.267273] (-) TimerEvent: {}
+[6.368991] (-) TimerEvent: {}
+[6.470894] (-) TimerEvent: {}
+[6.572331] (-) TimerEvent: {}
+[6.673511] (-) TimerEvent: {}
+[6.774110] (-) TimerEvent: {}
+[6.874945] (-) TimerEvent: {}
+[6.975533] (-) TimerEvent: {}
+[7.040797] (warehouse_robot) StdoutLine: {'line': b'running develop\n'}
+[7.075560] (-) TimerEvent: {}
+[7.176045] (-) TimerEvent: {}
+[7.276978] (-) TimerEvent: {}
+[7.377473] (-) TimerEvent: {}
+[7.478457] (-) TimerEvent: {}
+[7.579864] (-) TimerEvent: {}
+[7.680308] (-) TimerEvent: {}
+[7.781375] (-) TimerEvent: {}
+[7.882048] (-) TimerEvent: {}
+[7.983326] (-) TimerEvent: {}
+[8.084436] (-) TimerEvent: {}
+[8.141332] (warehouse_robot) StdoutLine: {'line': b'Removing /home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages/warehouse-robot.egg-link (link to .)\n'}
+[8.184819] (-) TimerEvent: {}
+[8.285857] (-) TimerEvent: {}
+[8.290328] (warehouse_robot) CommandEnded: {'returncode': 0}
+[8.296149] (warehouse_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/warehouse_robot', 'build', '--build-base', '/home/shruti/intelligent_robotics/build/warehouse_robot/build', 'install', '--record', '/home/shruti/intelligent_robotics/build/warehouse_robot/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/home/shruti/intelligent_robotics/src/warehouse_robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'shruti', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/shruti/.vscode-server/bin/f6cfa2ea2403534de03f069bdf160d06451ed282/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/shruti', 'OLDPWD': '/home/shruti', 'TERM_PROGRAM_VERSION': '1.121.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-fd604e9a-65ee-42cb-b95a-7c7409fa3e39.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/shruti/.vscode-server/bin/f6cfa2ea2403534de03f069bdf160d06451ed282/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/shruti/.vscode-server/bin/f6cfa2ea2403534de03f069bdf160d06451ed282/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/shruti/warehouse_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shruti', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/544_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/shruti/.vscode-server/bin/f6cfa2ea2403534de03f069bdf160d06451ed282/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/libnvvp:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Java/jdk-20/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.2.2/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Google/Cloud SDK/google-cloud-sdk/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Amazon/AWSCLIV2/:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/Program Files/MariaDB 11.8/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Users/shruti suresh/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/shruti suresh/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/shruti suresh/npm-global:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolki:/mnt/c/Users/shruti suresh/Downloads/arduino-cli_1.3.1_Windows_64bit:/mnt/c/Users/shruti suresh/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/shruti suresh/AppData/Local/Programs/Ollama:/mnt/c/Users/shruti suresh/anaconda3/Library/bin/conda.bat:/mnt/c/Users/shruti suresh/anaconda3/Scripts/conda.exe:/mnt/c/Users/shruti suresh/anaconda3/condabin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-450f9ad4d2.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/shruti/warehouse_ws/install/warehouse_world:/home/shruti/warehouse_ws/install/warehouse_robot:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/shruti/intelligent_robotics/build/warehouse_robot', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shruti/intelligent_robotics/build/warehouse_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages:/home/shruti/warehouse_ws/build/warehouse_world:/home/shruti/warehouse_ws/install/warehouse_world/lib/python3.12/site-packages:/home/shruti/warehouse_ws/build/warehouse_robot:/home/shruti/warehouse_ws/install/warehouse_robot/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}, 'shell': False}
+[8.386046] (-) TimerEvent: {}
+[8.486649] (-) TimerEvent: {}
+[8.586999] (-) TimerEvent: {}
+[8.687293] (-) TimerEvent: {}
+[8.787649] (-) TimerEvent: {}
+[8.888329] (-) TimerEvent: {}
+[8.988901] (-) TimerEvent: {}
+[9.089348] (-) TimerEvent: {}
+[9.189821] (-) TimerEvent: {}
+[9.290502] (-) TimerEvent: {}
+[9.391424] (-) TimerEvent: {}
+[9.492472] (-) TimerEvent: {}
+[9.593292] (-) TimerEvent: {}
+[9.694257] (-) TimerEvent: {}
+[9.752274] (warehouse_robot) StdoutLine: {'line': b'running egg_info\n'}
+[9.794872] (-) TimerEvent: {}
+[9.797692] (warehouse_robot) StdoutLine: {'line': b'writing ../../build/warehouse_robot/warehouse_robot.egg-info/PKG-INFO\n'}
+[9.798213] (warehouse_robot) StdoutLine: {'line': b'writing dependency_links to ../../build/warehouse_robot/warehouse_robot.egg-info/dependency_links.txt\n'}
+[9.799963] (warehouse_robot) StdoutLine: {'line': b'writing entry points to ../../build/warehouse_robot/warehouse_robot.egg-info/entry_points.txt\n'}
+[9.800905] (warehouse_robot) StdoutLine: {'line': b'writing requirements to ../../build/warehouse_robot/warehouse_robot.egg-info/requires.txt\n'}
+[9.801778] (warehouse_robot) StdoutLine: {'line': b'writing top-level names to ../../build/warehouse_robot/warehouse_robot.egg-info/top_level.txt\n'}
+[9.895292] (-) TimerEvent: {}
+[9.961996] (warehouse_robot) StdoutLine: {'line': b"reading manifest file '../../build/warehouse_robot/warehouse_robot.egg-info/SOURCES.txt'\n"}
+[9.969012] (warehouse_robot) StdoutLine: {'line': b"writing manifest file '../../build/warehouse_robot/warehouse_robot.egg-info/SOURCES.txt'\n"}
+[9.970513] (warehouse_robot) StdoutLine: {'line': b'running build\n'}
+[9.971638] (warehouse_robot) StdoutLine: {'line': b'running build_py\n'}
+[9.972534] (warehouse_robot) StdoutLine: {'line': b'creating /home/shruti/intelligent_robotics/build/warehouse_robot/build\n'}
+[9.973841] (warehouse_robot) StdoutLine: {'line': b'creating /home/shruti/intelligent_robotics/build/warehouse_robot/build/lib\n'}
+[9.974723] (warehouse_robot) StdoutLine: {'line': b'creating /home/shruti/intelligent_robotics/build/warehouse_robot/build/lib/warehouse_robot\n'}
+[9.975754] (warehouse_robot) StdoutLine: {'line': b'copying warehouse_robot/robot_controller.py -> /home/shruti/intelligent_robotics/build/warehouse_robot/build/lib/warehouse_robot\n'}
+[9.976792] (warehouse_robot) StdoutLine: {'line': b'copying warehouse_robot/__init__.py -> /home/shruti/intelligent_robotics/build/warehouse_robot/build/lib/warehouse_robot\n'}
+[9.977828] (warehouse_robot) StdoutLine: {'line': b'copying warehouse_robot/path_planner.py -> /home/shruti/intelligent_robotics/build/warehouse_robot/build/lib/warehouse_robot\n'}
+[9.978615] (warehouse_robot) StdoutLine: {'line': b'running install\n'}
+[9.995473] (-) TimerEvent: {}
+[10.027827] (warehouse_robot) StdoutLine: {'line': b'running install_lib\n'}
+[10.096782] (-) TimerEvent: {}
+[10.157188] (warehouse_robot) StdoutLine: {'line': b'creating /home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages/warehouse_robot\n'}
+[10.159004] (warehouse_robot) StdoutLine: {'line': b'copying /home/shruti/intelligent_robotics/build/warehouse_robot/build/lib/warehouse_robot/robot_controller.py -> /home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages/warehouse_robot\n'}
+[10.161140] (warehouse_robot) StdoutLine: {'line': b'copying /home/shruti/intelligent_robotics/build/warehouse_robot/build/lib/warehouse_robot/__init__.py -> /home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages/warehouse_robot\n'}
+[10.162581] (warehouse_robot) StdoutLine: {'line': b'copying /home/shruti/intelligent_robotics/build/warehouse_robot/build/lib/warehouse_robot/path_planner.py -> /home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages/warehouse_robot\n'}
+[10.166541] (warehouse_robot) StdoutLine: {'line': b'byte-compiling /home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages/warehouse_robot/robot_controller.py to robot_controller.cpython-312.pyc\n'}
+[10.175083] (warehouse_robot) StdoutLine: {'line': b'byte-compiling /home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages/warehouse_robot/__init__.py to __init__.cpython-312.pyc\n'}
+[10.176273] (warehouse_robot) StdoutLine: {'line': b'byte-compiling /home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages/warehouse_robot/path_planner.py to path_planner.cpython-312.pyc\n'}
+[10.181122] (warehouse_robot) StdoutLine: {'line': b'running install_data\n'}
+[10.182026] (warehouse_robot) StdoutLine: {'line': b'copying resource/warehouse_robot -> /home/shruti/intelligent_robotics/install/warehouse_robot/share/ament_index/resource_index/packages\n'}
+[10.183668] (warehouse_robot) StdoutLine: {'line': b'copying package.xml -> /home/shruti/intelligent_robotics/install/warehouse_robot/share/warehouse_robot\n'}
+[10.184630] (warehouse_robot) StdoutLine: {'line': b'copying launch/spawn_robot.launch.py -> /home/shruti/intelligent_robotics/install/warehouse_robot/share/warehouse_robot/launch\n'}
+[10.188236] (warehouse_robot) StdoutLine: {'line': b'copying urdf/warehouse_amr.urdf -> /home/shruti/intelligent_robotics/install/warehouse_robot/share/warehouse_robot/urdf\n'}
+[10.190494] (warehouse_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.196954] (-) TimerEvent: {}
+[10.297504] (-) TimerEvent: {}
+[10.366789] (warehouse_robot) StdoutLine: {'line': b'Copying ../../build/warehouse_robot/warehouse_robot.egg-info to /home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages/warehouse_robot-0.0.0-py3.12.egg-info\n'}
+[10.378641] (warehouse_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[10.397554] (-) TimerEvent: {}
+[10.497877] (-) TimerEvent: {}
+[10.598477] (-) TimerEvent: {}
+[10.700580] (-) TimerEvent: {}
+[10.801633] (-) TimerEvent: {}
+[10.902040] (-) TimerEvent: {}
+[11.002552] (-) TimerEvent: {}
+[11.103444] (-) TimerEvent: {}
+[11.192801] (warehouse_robot) StdoutLine: {'line': b'Installing path_planner script to /home/shruti/intelligent_robotics/install/warehouse_robot/lib/warehouse_robot\n'}
+[11.193960] (warehouse_robot) StdoutLine: {'line': b'Installing robot_controller script to /home/shruti/intelligent_robotics/install/warehouse_robot/lib/warehouse_robot\n'}
+[11.194165] (warehouse_robot) StdoutLine: {'line': b"writing list of installed files to '/home/shruti/intelligent_robotics/build/warehouse_robot/install.log'\n"}
+[11.203524] (-) TimerEvent: {}
+[11.303796] (-) TimerEvent: {}
+[11.342905] (warehouse_robot) CommandEnded: {'returncode': 0}
+[11.404025] (-) TimerEvent: {}
+[11.416339] (warehouse_robot) JobEnded: {'identifier': 'warehouse_robot', 'rc': 0}
+[11.422345] (-) EventReactorShutdown: {}

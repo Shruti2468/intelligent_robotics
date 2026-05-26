@@ -1,0 +1,3 @@
+[console_scripts]
+path_planner = warehouse_robot.path_planner:main
+robot_controller = warehouse_robot.robot_controller:main

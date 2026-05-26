@@ -1,1 +1,0 @@
-/home/shruti/warehouse_ws/src/warehouse_robot/setup.py
