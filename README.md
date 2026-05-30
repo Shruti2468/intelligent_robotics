@@ -1,10 +1,11 @@
 Multi-Robot Warehouse Automation With Priority-Based Scheduling
 
 
+source /opt/ros/jazzy/setup.bash
 
 cd ~/intelligent_robotics
 source install/setup.bash
-
+colcon build --packages-select warehouse_robot
 
 # Terminal 1
 ros2 launch warehouse_world world.launch.py
