@@ -15,5 +15,8 @@ test/test_flake8.py
 test/test_pep257.py
 urdf/warehouse_amr.urdf
 warehouse_robot/__init__.py
+warehouse_robot/dwa_controller.py
 warehouse_robot/path_planner.py
 warehouse_robot/robot_controller.py
+warehouse_robot/task_manager.py
+warehouse_robot/warehouse_nav_env.py

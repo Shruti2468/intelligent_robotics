@@ -40,10 +40,13 @@ setup(
         ],
     },
     entry_points={
-    'console_scripts': [
-        'robot_controller = warehouse_robot.robot_controller:main',
-        'path_planner = warehouse_robot.path_planner:main',   # ← ADD THIS LINE
-    ],
+        'console_scripts': [
+            'robot_controller = warehouse_robot.robot_controller:main',
+            'path_planner     = warehouse_robot.path_planner:main',
+            'task_manager     = warehouse_robot.task_manager:main',   # ← NEW
+            'dwa_robot_controller = warehouse_robot.dwa_controller:main',
+
+        ],
 
     },
 )

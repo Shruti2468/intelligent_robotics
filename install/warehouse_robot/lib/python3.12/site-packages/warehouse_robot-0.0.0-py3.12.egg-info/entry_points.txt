@@ -1,3 +1,5 @@
 [console_scripts]
+dwa_robot_controller = warehouse_robot.dwa_controller:main
 path_planner = warehouse_robot.path_planner:main
 robot_controller = warehouse_robot.robot_controller:main
+task_manager = warehouse_robot.task_manager:main
