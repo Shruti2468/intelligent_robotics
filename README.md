@@ -5,8 +5,16 @@ source /opt/ros/jazzy/setup.bash
 
 cd ~/intelligent_robotics
 source install/setup.bash
+colcon build --symlink-install
+
+
+
 colcon build --packages-select warehouse_robot
 
+
+
+source install/setup.bash
+colcon build --symlink-install
 # Terminal 1
 ros2 launch warehouse_world world.launch.py
 
@@ -20,28 +28,13 @@ ros2 run warehouse_robot path_planner
 ros2 run warehouse_robot robot_controller
 
 # Terminal 5
-rviz2   # click "2D Nav Goal" on the map → robot moves
 
+ros2 run warehouse_robot mission_manager
 
+# Terminal 6
 
+ros2 run warehouse_robot static_map_publisher
 
-# Terminal 1 — world
-cd ~/intelligent_robotics && source install/setup.bash
-ros2 launch warehouse_world world.launch.py
+# Terminal 7
+rviz2 -d ~/intelligent_robotics/src/warehouse_robot/config/warehouse.rviz
 
-# Terminal 2 — robot
-cd ~/intelligent_robotics && source install/setup.bash
-ros2 launch warehouse_robot spawn_robot.launch.py
-
-# Terminal 3 — path planner
-cd ~/intelligent_robotics && source install/setup.bash
-ros2 run warehouse_robot path_planner
-
-# Terminal 4 — robot controller
-cd ~/intelligent_robotics && source install/setup.bash
-ros2 run warehouse_robot robot_controller
-
-# Terminal 5 — RViz
-cd ~/intelligent_robotics && source install/setup.bash
-rviz2
-# Click "2D Nav Goal" → robot moves → logs "Goal reached!"

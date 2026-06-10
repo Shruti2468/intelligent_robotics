@@ -9,8 +9,11 @@ setup.py
 ../../build/warehouse_world/warehouse_world.egg-info/zip-safe
 launch/world.launch.py
 resource/warehouse_world
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
 warehouse_world/__init__.py
+warehouse_world.egg-info/PKG-INFO
+warehouse_world.egg-info/SOURCES.txt
+warehouse_world.egg-info/dependency_links.txt
+warehouse_world.egg-info/requires.txt
+warehouse_world.egg-info/top_level.txt
+warehouse_world.egg-info/zip-safe
 worlds/warehouse.world

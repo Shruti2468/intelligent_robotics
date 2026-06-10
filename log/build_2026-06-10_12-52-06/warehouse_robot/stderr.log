@@ -1,0 +1,5 @@
+  File "/home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages/warehouse_robot/path_planner.py", line 344
+    n.destroy_node()"""path_planner.py — Hybrid A* global planner (improved)
+                    
+SyntaxError: invalid syntax
+

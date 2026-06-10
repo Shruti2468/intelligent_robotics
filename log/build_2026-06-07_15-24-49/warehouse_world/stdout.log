@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing warehouse_world.egg-info/PKG-INFO
+writing dependency_links to warehouse_world.egg-info/dependency_links.txt
+writing requirements to warehouse_world.egg-info/requires.txt
+writing top-level names to warehouse_world.egg-info/top_level.txt
+reading manifest file 'warehouse_world.egg-info/SOURCES.txt'
+writing manifest file 'warehouse_world.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/shruti/intelligent_robotics/install/warehouse_world/lib/python3.12/site-packages/warehouse-world.egg-link (link to .)
+
+Installed /home/shruti/intelligent_robotics/build/warehouse_world
+running symlink_data
+symbolically linking /home/shruti/intelligent_robotics/build/warehouse_world/resource/warehouse_world -> /home/shruti/intelligent_robotics/install/warehouse_world/share/ament_index/resource_index/packages
+symbolically linking /home/shruti/intelligent_robotics/build/warehouse_world/package.xml -> /home/shruti/intelligent_robotics/install/warehouse_world/share/warehouse_world
+symbolically linking /home/shruti/intelligent_robotics/build/warehouse_world/launch/world.launch.py -> /home/shruti/intelligent_robotics/install/warehouse_world/share/warehouse_world/launch
+symbolically linking /home/shruti/intelligent_robotics/build/warehouse_world/worlds/warehouse.world -> /home/shruti/intelligent_robotics/install/warehouse_world/share/warehouse_world/worlds

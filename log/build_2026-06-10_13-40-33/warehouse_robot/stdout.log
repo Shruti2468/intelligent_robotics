@@ -1,0 +1,22 @@
+running develop
+running egg_info
+writing warehouse_robot.egg-info/PKG-INFO
+writing dependency_links to warehouse_robot.egg-info/dependency_links.txt
+writing entry points to warehouse_robot.egg-info/entry_points.txt
+writing requirements to warehouse_robot.egg-info/requires.txt
+writing top-level names to warehouse_robot.egg-info/top_level.txt
+reading manifest file 'warehouse_robot.egg-info/SOURCES.txt'
+writing manifest file 'warehouse_robot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages/warehouse-robot.egg-link (link to .)
+Installing mission_manager script to /home/shruti/intelligent_robotics/install/warehouse_robot/lib/warehouse_robot
+Installing path_planner script to /home/shruti/intelligent_robotics/install/warehouse_robot/lib/warehouse_robot
+Installing robot_controller script to /home/shruti/intelligent_robotics/install/warehouse_robot/lib/warehouse_robot
+Installing static_map_publisher script to /home/shruti/intelligent_robotics/install/warehouse_robot/lib/warehouse_robot
+
+Installed /home/shruti/intelligent_robotics/build/warehouse_robot
+running symlink_data
+symbolically linking /home/shruti/intelligent_robotics/build/warehouse_robot/resource/warehouse_robot -> /home/shruti/intelligent_robotics/install/warehouse_robot/share/ament_index/resource_index/packages
+symbolically linking /home/shruti/intelligent_robotics/build/warehouse_robot/package.xml -> /home/shruti/intelligent_robotics/install/warehouse_robot/share/warehouse_robot
+symbolically linking /home/shruti/intelligent_robotics/build/warehouse_robot/launch/spawn_robot.launch.py -> /home/shruti/intelligent_robotics/install/warehouse_robot/share/warehouse_robot/launch
+symbolically linking /home/shruti/intelligent_robotics/build/warehouse_robot/urdf/warehouse_amr.urdf -> /home/shruti/intelligent_robotics/install/warehouse_robot/share/warehouse_robot/urdf

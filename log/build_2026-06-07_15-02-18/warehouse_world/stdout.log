@@ -1,0 +1,29 @@
+running develop
+Removing /home/shruti/intelligent_robotics/install/warehouse_world/lib/python3.12/site-packages/warehouse-world.egg-link (link to .)
+running egg_info
+writing ../../build/warehouse_world/warehouse_world.egg-info/PKG-INFO
+writing dependency_links to ../../build/warehouse_world/warehouse_world.egg-info/dependency_links.txt
+writing requirements to ../../build/warehouse_world/warehouse_world.egg-info/requires.txt
+writing top-level names to ../../build/warehouse_world/warehouse_world.egg-info/top_level.txt
+reading manifest file '../../build/warehouse_world/warehouse_world.egg-info/SOURCES.txt'
+writing manifest file '../../build/warehouse_world/warehouse_world.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/shruti/intelligent_robotics/build/warehouse_world/build
+creating /home/shruti/intelligent_robotics/build/warehouse_world/build/lib
+creating /home/shruti/intelligent_robotics/build/warehouse_world/build/lib/warehouse_world
+copying warehouse_world/__init__.py -> /home/shruti/intelligent_robotics/build/warehouse_world/build/lib/warehouse_world
+running install
+running install_lib
+creating /home/shruti/intelligent_robotics/install/warehouse_world/lib/python3.12/site-packages/warehouse_world
+copying /home/shruti/intelligent_robotics/build/warehouse_world/build/lib/warehouse_world/__init__.py -> /home/shruti/intelligent_robotics/install/warehouse_world/lib/python3.12/site-packages/warehouse_world
+byte-compiling /home/shruti/intelligent_robotics/install/warehouse_world/lib/python3.12/site-packages/warehouse_world/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying resource/warehouse_world -> /home/shruti/intelligent_robotics/install/warehouse_world/share/ament_index/resource_index/packages
+copying package.xml -> /home/shruti/intelligent_robotics/install/warehouse_world/share/warehouse_world
+copying launch/world.launch.py -> /home/shruti/intelligent_robotics/install/warehouse_world/share/warehouse_world/launch
+copying worlds/warehouse.world -> /home/shruti/intelligent_robotics/install/warehouse_world/share/warehouse_world/worlds
+running install_egg_info
+Copying ../../build/warehouse_world/warehouse_world.egg-info to /home/shruti/intelligent_robotics/install/warehouse_world/lib/python3.12/site-packages/warehouse_world-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/shruti/intelligent_robotics/build/warehouse_world/install.log'

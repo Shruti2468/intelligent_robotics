@@ -1,0 +1,187 @@
+[0.324s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.324s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f0ddf3a9dc0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0ddf3a9bb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0ddf3a9bb0>>)
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.357s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/shruti/intelligent_robotics'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_robot) by extension 'ignore'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_robot) by extension 'ignore_ament_install'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_robot) by extensions ['colcon_pkg']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_robot) by extension 'colcon_pkg'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_robot) by extensions ['colcon_meta']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_robot) by extension 'colcon_meta'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_robot) by extensions ['ros']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_robot) by extension 'ros'
+[0.388s] DEBUG:colcon.colcon_core.package_identification:Package 'src/warehouse_robot' with type 'ros.ament_python' and name 'warehouse_robot'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_world) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_world) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_world) by extension 'ignore_ament_install'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_world) by extensions ['colcon_pkg']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_world) by extension 'colcon_pkg'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_world) by extensions ['colcon_meta']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_world) by extension 'colcon_meta'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_world) by extensions ['ros']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_world) by extension 'ros'
+[0.389s] DEBUG:colcon.colcon_core.package_identification:Package 'src/warehouse_world' with type 'ros.ament_python' and name 'warehouse_world'
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.410s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.410s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.413s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/shruti/intelligent_robotics/install
+[0.414s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 496 installed packages in /opt/ros/jazzy
+[0.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'warehouse_robot' build argument 'cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'warehouse_robot' build argument 'cmake_target' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'warehouse_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'warehouse_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'warehouse_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'warehouse_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'warehouse_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'warehouse_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'warehouse_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.451s] DEBUG:colcon.colcon_core.verb:Building package 'warehouse_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shruti/intelligent_robotics/build/warehouse_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shruti/intelligent_robotics/install/warehouse_robot', 'merge_install': False, 'path': '/home/shruti/intelligent_robotics/src/warehouse_robot', 'symlink_install': True, 'test_result_base': None}
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'warehouse_world' build argument 'cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'warehouse_world' build argument 'cmake_target' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'warehouse_world' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'warehouse_world' build argument 'cmake_clean_cache' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'warehouse_world' build argument 'cmake_clean_first' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'warehouse_world' build argument 'cmake_force_configure' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'warehouse_world' build argument 'ament_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'warehouse_world' build argument 'catkin_cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'warehouse_world' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.452s] DEBUG:colcon.colcon_core.verb:Building package 'warehouse_world' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shruti/intelligent_robotics/build/warehouse_world', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shruti/intelligent_robotics/install/warehouse_world', 'merge_install': False, 'path': '/home/shruti/intelligent_robotics/src/warehouse_world', 'symlink_install': True, 'test_result_base': None}
+[0.452s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.452s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.453s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/shruti/intelligent_robotics/src/warehouse_robot' with build type 'ament_python'
+[0.453s] Level 1:colcon.colcon_core.shell:create_environment_hook('warehouse_robot', 'ament_prefix_path')
+[0.459s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shruti/intelligent_robotics/install/warehouse_robot/share/warehouse_robot/hook/ament_prefix_path.ps1'
+[0.461s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shruti/intelligent_robotics/install/warehouse_robot/share/warehouse_robot/hook/ament_prefix_path.dsv'
+[0.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shruti/intelligent_robotics/install/warehouse_robot/share/warehouse_robot/hook/ament_prefix_path.sh'
+[0.462s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.462s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.465s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/shruti/intelligent_robotics/src/warehouse_world' with build type 'ament_python'
+[0.465s] Level 1:colcon.colcon_core.shell:create_environment_hook('warehouse_world', 'ament_prefix_path')
+[0.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shruti/intelligent_robotics/install/warehouse_world/share/warehouse_world/hook/ament_prefix_path.ps1'
+[0.466s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shruti/intelligent_robotics/install/warehouse_world/share/warehouse_world/hook/ament_prefix_path.dsv'
+[0.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shruti/intelligent_robotics/install/warehouse_world/share/warehouse_world/hook/ament_prefix_path.sh'
+[0.466s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.466s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.616s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/shruti/intelligent_robotics/src/warehouse_robot'
+[0.616s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.616s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.777s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/shruti/intelligent_robotics/src/warehouse_world'
+[0.777s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.777s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.429s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shruti/intelligent_robotics/build/warehouse_world': PYTHONPATH=/home/shruti/intelligent_robotics/build/warehouse_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shruti/intelligent_robotics/install/warehouse_world/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shruti/intelligent_robotics/build/warehouse_world/build --no-deps symlink_data
+[1.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shruti/intelligent_robotics/build/warehouse_robot': PYTHONPATH=/home/shruti/intelligent_robotics/build/warehouse_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shruti/intelligent_robotics/build/warehouse_robot/build --no-deps symlink_data
+[1.865s] Level 1:colcon.colcon_core.shell:create_environment_hook('warehouse_robot', 'pythonpath_develop')
+[1.866s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shruti/intelligent_robotics/build/warehouse_robot' returned '0': PYTHONPATH=/home/shruti/intelligent_robotics/build/warehouse_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shruti/intelligent_robotics/build/warehouse_robot/build --no-deps symlink_data
+[1.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shruti/intelligent_robotics/build/warehouse_robot/share/warehouse_robot/hook/pythonpath_develop.ps1'
+[1.867s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shruti/intelligent_robotics/build/warehouse_robot/share/warehouse_robot/hook/pythonpath_develop.dsv'
+[1.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shruti/intelligent_robotics/build/warehouse_robot/share/warehouse_robot/hook/pythonpath_develop.sh'
+[1.875s] Level 1:colcon.colcon_core.environment:checking '/home/shruti/intelligent_robotics/install/warehouse_robot' for CMake module files
+[1.885s] Level 1:colcon.colcon_core.environment:checking '/home/shruti/intelligent_robotics/install/warehouse_robot' for CMake config files
+[1.885s] Level 1:colcon.colcon_core.environment:checking '/home/shruti/intelligent_robotics/install/warehouse_robot/lib'
+[1.885s] Level 1:colcon.colcon_core.environment:checking '/home/shruti/intelligent_robotics/install/warehouse_robot/bin'
+[1.885s] Level 1:colcon.colcon_core.environment:checking '/home/shruti/intelligent_robotics/install/warehouse_robot/lib/pkgconfig/warehouse_robot.pc'
+[1.886s] Level 1:colcon.colcon_core.environment:checking '/home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages'
+[1.886s] Level 1:colcon.colcon_core.shell:create_environment_hook('warehouse_robot', 'pythonpath')
+[1.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shruti/intelligent_robotics/install/warehouse_robot/share/warehouse_robot/hook/pythonpath.ps1'
+[1.886s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shruti/intelligent_robotics/install/warehouse_robot/share/warehouse_robot/hook/pythonpath.dsv'
+[1.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shruti/intelligent_robotics/install/warehouse_robot/share/warehouse_robot/hook/pythonpath.sh'
+[1.887s] Level 1:colcon.colcon_core.environment:checking '/home/shruti/intelligent_robotics/install/warehouse_robot/bin'
+[1.887s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(warehouse_robot)
+[1.887s] INFO:colcon.colcon_core.shell:Creating package script '/home/shruti/intelligent_robotics/install/warehouse_robot/share/warehouse_robot/package.ps1'
+[1.888s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shruti/intelligent_robotics/install/warehouse_robot/share/warehouse_robot/package.dsv'
+[1.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/shruti/intelligent_robotics/install/warehouse_robot/share/warehouse_robot/package.sh'
+[1.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/shruti/intelligent_robotics/install/warehouse_robot/share/warehouse_robot/package.bash'
+[1.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/shruti/intelligent_robotics/install/warehouse_robot/share/warehouse_robot/package.zsh'
+[1.891s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shruti/intelligent_robotics/install/warehouse_robot/share/colcon-core/packages/warehouse_robot)
+[1.892s] Level 1:colcon.colcon_core.shell:create_environment_hook('warehouse_world', 'pythonpath_develop')
+[1.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shruti/intelligent_robotics/build/warehouse_world/share/warehouse_world/hook/pythonpath_develop.ps1'
+[1.892s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shruti/intelligent_robotics/build/warehouse_world' returned '0': PYTHONPATH=/home/shruti/intelligent_robotics/build/warehouse_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shruti/intelligent_robotics/install/warehouse_world/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shruti/intelligent_robotics/build/warehouse_world/build --no-deps symlink_data
+[1.893s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shruti/intelligent_robotics/build/warehouse_world/share/warehouse_world/hook/pythonpath_develop.dsv'
+[1.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shruti/intelligent_robotics/build/warehouse_world/share/warehouse_world/hook/pythonpath_develop.sh'
+[1.893s] Level 1:colcon.colcon_core.environment:checking '/home/shruti/intelligent_robotics/install/warehouse_world' for CMake module files
+[1.894s] Level 1:colcon.colcon_core.environment:checking '/home/shruti/intelligent_robotics/install/warehouse_world' for CMake config files
+[1.894s] Level 1:colcon.colcon_core.environment:checking '/home/shruti/intelligent_robotics/install/warehouse_world/lib'
+[1.894s] Level 1:colcon.colcon_core.environment:checking '/home/shruti/intelligent_robotics/install/warehouse_world/bin'
+[1.894s] Level 1:colcon.colcon_core.environment:checking '/home/shruti/intelligent_robotics/install/warehouse_world/lib/pkgconfig/warehouse_world.pc'
+[1.894s] Level 1:colcon.colcon_core.environment:checking '/home/shruti/intelligent_robotics/install/warehouse_world/lib/python3.12/site-packages'
+[1.895s] Level 1:colcon.colcon_core.shell:create_environment_hook('warehouse_world', 'pythonpath')
+[1.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shruti/intelligent_robotics/install/warehouse_world/share/warehouse_world/hook/pythonpath.ps1'
+[1.895s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shruti/intelligent_robotics/install/warehouse_world/share/warehouse_world/hook/pythonpath.dsv'
+[1.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shruti/intelligent_robotics/install/warehouse_world/share/warehouse_world/hook/pythonpath.sh'
+[1.896s] Level 1:colcon.colcon_core.environment:checking '/home/shruti/intelligent_robotics/install/warehouse_world/bin'
+[1.896s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(warehouse_world)
+[1.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/shruti/intelligent_robotics/install/warehouse_world/share/warehouse_world/package.ps1'
+[1.896s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shruti/intelligent_robotics/install/warehouse_world/share/warehouse_world/package.dsv'
+[1.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/shruti/intelligent_robotics/install/warehouse_world/share/warehouse_world/package.sh'
+[1.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/shruti/intelligent_robotics/install/warehouse_world/share/warehouse_world/package.bash'
+[1.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/shruti/intelligent_robotics/install/warehouse_world/share/warehouse_world/package.zsh'
+[1.897s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shruti/intelligent_robotics/install/warehouse_world/share/colcon-core/packages/warehouse_world)
+[1.898s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.899s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.899s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.899s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.000s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.000s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.000s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.000s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.001s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2.001s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.001s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shruti/intelligent_robotics/install/local_setup.ps1'
+[2.002s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shruti/intelligent_robotics/install/_local_setup_util_ps1.py'
+[2.003s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shruti/intelligent_robotics/install/setup.ps1'
+[2.004s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shruti/intelligent_robotics/install/local_setup.sh'
+[2.005s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shruti/intelligent_robotics/install/_local_setup_util_sh.py'
+[2.005s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shruti/intelligent_robotics/install/setup.sh'
+[2.006s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shruti/intelligent_robotics/install/local_setup.bash'
+[2.007s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shruti/intelligent_robotics/install/setup.bash'
+[2.008s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shruti/intelligent_robotics/install/local_setup.zsh'
+[2.008s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shruti/intelligent_robotics/install/setup.zsh'

@@ -1,0 +1,59 @@
+running egg_info
+creating ../../build/warehouse_robot/warehouse_robot.egg-info
+writing ../../build/warehouse_robot/warehouse_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/warehouse_robot/warehouse_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/warehouse_robot/warehouse_robot.egg-info/entry_points.txt
+writing requirements to ../../build/warehouse_robot/warehouse_robot.egg-info/requires.txt
+writing top-level names to ../../build/warehouse_robot/warehouse_robot.egg-info/top_level.txt
+writing manifest file '../../build/warehouse_robot/warehouse_robot.egg-info/SOURCES.txt'
+reading manifest file '../../build/warehouse_robot/warehouse_robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/warehouse_robot/warehouse_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/shruti/intelligent_robotics/build/warehouse_robot/build
+creating /home/shruti/intelligent_robotics/build/warehouse_robot/build/lib
+creating /home/shruti/intelligent_robotics/build/warehouse_robot/build/lib/warehouse_robot
+copying warehouse_robot/mission_manager.py -> /home/shruti/intelligent_robotics/build/warehouse_robot/build/lib/warehouse_robot
+copying warehouse_robot/robot_controller.py -> /home/shruti/intelligent_robotics/build/warehouse_robot/build/lib/warehouse_robot
+copying warehouse_robot/__init__.py -> /home/shruti/intelligent_robotics/build/warehouse_robot/build/lib/warehouse_robot
+copying warehouse_robot/map_odom_tf_publisher.py -> /home/shruti/intelligent_robotics/build/warehouse_robot/build/lib/warehouse_robot
+copying warehouse_robot/odom_tf_publisher.py -> /home/shruti/intelligent_robotics/build/warehouse_robot/build/lib/warehouse_robot
+copying warehouse_robot/static_map_publisher.py -> /home/shruti/intelligent_robotics/build/warehouse_robot/build/lib/warehouse_robot
+copying warehouse_robot/path_planner.py -> /home/shruti/intelligent_robotics/build/warehouse_robot/build/lib/warehouse_robot
+running install
+running install_lib
+creating /home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages/warehouse_robot
+copying /home/shruti/intelligent_robotics/build/warehouse_robot/build/lib/warehouse_robot/mission_manager.py -> /home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages/warehouse_robot
+copying /home/shruti/intelligent_robotics/build/warehouse_robot/build/lib/warehouse_robot/robot_controller.py -> /home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages/warehouse_robot
+copying /home/shruti/intelligent_robotics/build/warehouse_robot/build/lib/warehouse_robot/__init__.py -> /home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages/warehouse_robot
+copying /home/shruti/intelligent_robotics/build/warehouse_robot/build/lib/warehouse_robot/map_odom_tf_publisher.py -> /home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages/warehouse_robot
+copying /home/shruti/intelligent_robotics/build/warehouse_robot/build/lib/warehouse_robot/odom_tf_publisher.py -> /home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages/warehouse_robot
+copying /home/shruti/intelligent_robotics/build/warehouse_robot/build/lib/warehouse_robot/static_map_publisher.py -> /home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages/warehouse_robot
+copying /home/shruti/intelligent_robotics/build/warehouse_robot/build/lib/warehouse_robot/path_planner.py -> /home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages/warehouse_robot
+byte-compiling /home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages/warehouse_robot/mission_manager.py to mission_manager.cpython-312.pyc
+byte-compiling /home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages/warehouse_robot/robot_controller.py to robot_controller.cpython-312.pyc
+byte-compiling /home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages/warehouse_robot/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages/warehouse_robot/map_odom_tf_publisher.py to map_odom_tf_publisher.cpython-312.pyc
+byte-compiling /home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages/warehouse_robot/odom_tf_publisher.py to odom_tf_publisher.cpython-312.pyc
+byte-compiling /home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages/warehouse_robot/static_map_publisher.py to static_map_publisher.cpython-312.pyc
+byte-compiling /home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages/warehouse_robot/path_planner.py to path_planner.cpython-312.pyc
+running install_data
+creating /home/shruti/intelligent_robotics/install/warehouse_robot/share/ament_index
+creating /home/shruti/intelligent_robotics/install/warehouse_robot/share/ament_index/resource_index
+creating /home/shruti/intelligent_robotics/install/warehouse_robot/share/ament_index/resource_index/packages
+copying resource/warehouse_robot -> /home/shruti/intelligent_robotics/install/warehouse_robot/share/ament_index/resource_index/packages
+copying package.xml -> /home/shruti/intelligent_robotics/install/warehouse_robot/share/warehouse_robot
+creating /home/shruti/intelligent_robotics/install/warehouse_robot/share/warehouse_robot/launch
+copying launch/spawn_robot.launch.py -> /home/shruti/intelligent_robotics/install/warehouse_robot/share/warehouse_robot/launch
+creating /home/shruti/intelligent_robotics/install/warehouse_robot/share/warehouse_robot/urdf
+copying urdf/warehouse_amr.urdf -> /home/shruti/intelligent_robotics/install/warehouse_robot/share/warehouse_robot/urdf
+running install_egg_info
+Copying ../../build/warehouse_robot/warehouse_robot.egg-info to /home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages/warehouse_robot-0.0.0-py3.12.egg-info
+running install_scripts
+Installing map_odom_tf_publisher script to /home/shruti/intelligent_robotics/install/warehouse_robot/lib/warehouse_robot
+Installing mission_manager script to /home/shruti/intelligent_robotics/install/warehouse_robot/lib/warehouse_robot
+Installing odom_tf_publisher script to /home/shruti/intelligent_robotics/install/warehouse_robot/lib/warehouse_robot
+Installing path_planner script to /home/shruti/intelligent_robotics/install/warehouse_robot/lib/warehouse_robot
+Installing robot_controller script to /home/shruti/intelligent_robotics/install/warehouse_robot/lib/warehouse_robot
+Installing static_map_publisher script to /home/shruti/intelligent_robotics/install/warehouse_robot/lib/warehouse_robot
+writing list of installed files to '/home/shruti/intelligent_robotics/build/warehouse_robot/install.log'

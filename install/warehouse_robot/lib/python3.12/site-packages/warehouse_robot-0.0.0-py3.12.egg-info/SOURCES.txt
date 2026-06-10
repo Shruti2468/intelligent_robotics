@@ -15,5 +15,9 @@ test/test_flake8.py
 test/test_pep257.py
 urdf/warehouse_amr.urdf
 warehouse_robot/__init__.py
+warehouse_robot/map_odom_tf_publisher.py
+warehouse_robot/mission_manager.py
+warehouse_robot/odom_tf_publisher.py
 warehouse_robot/path_planner.py
 warehouse_robot/robot_controller.py
+warehouse_robot/static_map_publisher.py

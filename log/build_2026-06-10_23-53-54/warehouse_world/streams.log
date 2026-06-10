@@ -1,0 +1,14 @@
+[0.877s] Invoking command in '/home/shruti/intelligent_robotics/build/warehouse_world': PYTHONPATH=/home/shruti/intelligent_robotics/build/warehouse_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shruti/intelligent_robotics/install/warehouse_world/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shruti/intelligent_robotics/build/warehouse_world/build --no-deps symlink_data
+[1.073s] running develop
+[1.188s] running egg_info
+[1.200s] writing warehouse_world.egg-info/PKG-INFO
+[1.201s] writing dependency_links to warehouse_world.egg-info/dependency_links.txt
+[1.201s] writing requirements to warehouse_world.egg-info/requires.txt
+[1.201s] writing top-level names to warehouse_world.egg-info/top_level.txt
+[1.226s] reading manifest file 'warehouse_world.egg-info/SOURCES.txt'
+[1.227s] writing manifest file 'warehouse_world.egg-info/SOURCES.txt'
+[1.239s] running build_ext
+[1.239s] Creating /home/shruti/intelligent_robotics/install/warehouse_world/lib/python3.12/site-packages/warehouse-world.egg-link (link to .)
+[1.240s] 
+[1.240s] Installed /home/shruti/intelligent_robotics/build/warehouse_world
+[1.240s] running symlink_data

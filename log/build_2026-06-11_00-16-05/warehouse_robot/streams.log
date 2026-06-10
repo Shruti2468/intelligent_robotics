@@ -1,0 +1,26 @@
+[1.146s] Invoking command in '/home/shruti/intelligent_robotics/build/warehouse_robot': PYTHONPATH=/home/shruti/intelligent_robotics/build/warehouse_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shruti/intelligent_robotics/build/warehouse_robot/build --no-deps symlink_data --force
+[1.563s] running develop
+[1.840s] running egg_info
+[1.863s] writing warehouse_robot.egg-info/PKG-INFO
+[1.863s] writing dependency_links to warehouse_robot.egg-info/dependency_links.txt
+[1.864s] writing entry points to warehouse_robot.egg-info/entry_points.txt
+[1.865s] writing requirements to warehouse_robot.egg-info/requires.txt
+[1.865s] writing top-level names to warehouse_robot.egg-info/top_level.txt
+[1.916s] reading manifest file 'warehouse_robot.egg-info/SOURCES.txt'
+[1.917s] writing manifest file 'warehouse_robot.egg-info/SOURCES.txt'
+[1.943s] running build_ext
+[1.944s] Creating /home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages/warehouse-robot.egg-link (link to .)
+[1.944s] Installing map_odom_tf_publisher script to /home/shruti/intelligent_robotics/install/warehouse_robot/lib/warehouse_robot
+[1.945s] Installing mission_manager script to /home/shruti/intelligent_robotics/install/warehouse_robot/lib/warehouse_robot
+[1.945s] Installing odom_tf_publisher script to /home/shruti/intelligent_robotics/install/warehouse_robot/lib/warehouse_robot
+[1.945s] Installing path_planner script to /home/shruti/intelligent_robotics/install/warehouse_robot/lib/warehouse_robot
+[1.946s] Installing robot_controller script to /home/shruti/intelligent_robotics/install/warehouse_robot/lib/warehouse_robot
+[1.946s] Installing static_map_publisher script to /home/shruti/intelligent_robotics/install/warehouse_robot/lib/warehouse_robot
+[1.946s] 
+[1.946s] Installed /home/shruti/intelligent_robotics/build/warehouse_robot
+[1.946s] running symlink_data
+[1.947s] symbolically linking /home/shruti/intelligent_robotics/build/warehouse_robot/resource/warehouse_robot -> /home/shruti/intelligent_robotics/install/warehouse_robot/share/ament_index/resource_index/packages
+[1.947s] symbolically linking /home/shruti/intelligent_robotics/build/warehouse_robot/package.xml -> /home/shruti/intelligent_robotics/install/warehouse_robot/share/warehouse_robot
+[1.947s] symbolically linking /home/shruti/intelligent_robotics/build/warehouse_robot/launch/spawn_robot.launch.py -> /home/shruti/intelligent_robotics/install/warehouse_robot/share/warehouse_robot/launch
+[1.947s] symbolically linking /home/shruti/intelligent_robotics/build/warehouse_robot/urdf/warehouse_amr.urdf -> /home/shruti/intelligent_robotics/install/warehouse_robot/share/warehouse_robot/urdf
+[1.984s] Invoked command in '/home/shruti/intelligent_robotics/build/warehouse_robot' returned '0': PYTHONPATH=/home/shruti/intelligent_robotics/build/warehouse_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shruti/intelligent_robotics/install/warehouse_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shruti/intelligent_robotics/build/warehouse_robot/build --no-deps symlink_data --force

@@ -1,0 +1,33 @@
+[0.519s] Invoking command in '/home/shruti/intelligent_robotics/build/warehouse_world': PYTHONPATH=/home/shruti/intelligent_robotics/build/warehouse_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shruti/intelligent_robotics/install/warehouse_world/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/shruti/intelligent_robotics/build/warehouse_world/build
+[0.706s] running develop
+[0.825s] Removing /home/shruti/intelligent_robotics/install/warehouse_world/lib/python3.12/site-packages/warehouse-world.egg-link (link to .)
+[0.847s] Invoked command in '/home/shruti/intelligent_robotics/build/warehouse_world' returned '0': PYTHONPATH=/home/shruti/intelligent_robotics/build/warehouse_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shruti/intelligent_robotics/install/warehouse_world/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/shruti/intelligent_robotics/build/warehouse_world/build
+[0.848s] Invoking command in '/home/shruti/intelligent_robotics/src/warehouse_world': PYTHONPATH=/home/shruti/intelligent_robotics/build/warehouse_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shruti/intelligent_robotics/install/warehouse_world/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/warehouse_world build --build-base /home/shruti/intelligent_robotics/build/warehouse_world/build install --record /home/shruti/intelligent_robotics/build/warehouse_world/install.log --single-version-externally-managed install_data --force
+[1.018s] running egg_info
+[1.029s] writing ../../build/warehouse_world/warehouse_world.egg-info/PKG-INFO
+[1.030s] writing dependency_links to ../../build/warehouse_world/warehouse_world.egg-info/dependency_links.txt
+[1.030s] writing requirements to ../../build/warehouse_world/warehouse_world.egg-info/requires.txt
+[1.030s] writing top-level names to ../../build/warehouse_world/warehouse_world.egg-info/top_level.txt
+[1.053s] reading manifest file '../../build/warehouse_world/warehouse_world.egg-info/SOURCES.txt'
+[1.053s] writing manifest file '../../build/warehouse_world/warehouse_world.egg-info/SOURCES.txt'
+[1.054s] running build
+[1.054s] running build_py
+[1.054s] creating /home/shruti/intelligent_robotics/build/warehouse_world/build
+[1.054s] creating /home/shruti/intelligent_robotics/build/warehouse_world/build/lib
+[1.054s] creating /home/shruti/intelligent_robotics/build/warehouse_world/build/lib/warehouse_world
+[1.054s] copying warehouse_world/__init__.py -> /home/shruti/intelligent_robotics/build/warehouse_world/build/lib/warehouse_world
+[1.054s] running install
+[1.058s] running install_lib
+[1.070s] creating /home/shruti/intelligent_robotics/install/warehouse_world/lib/python3.12/site-packages/warehouse_world
+[1.070s] copying /home/shruti/intelligent_robotics/build/warehouse_world/build/lib/warehouse_world/__init__.py -> /home/shruti/intelligent_robotics/install/warehouse_world/lib/python3.12/site-packages/warehouse_world
+[1.071s] byte-compiling /home/shruti/intelligent_robotics/install/warehouse_world/lib/python3.12/site-packages/warehouse_world/__init__.py to __init__.cpython-312.pyc
+[1.071s] running install_data
+[1.071s] copying resource/warehouse_world -> /home/shruti/intelligent_robotics/install/warehouse_world/share/ament_index/resource_index/packages
+[1.071s] copying package.xml -> /home/shruti/intelligent_robotics/install/warehouse_world/share/warehouse_world
+[1.071s] copying launch/world.launch.py -> /home/shruti/intelligent_robotics/install/warehouse_world/share/warehouse_world/launch
+[1.071s] copying worlds/warehouse.world -> /home/shruti/intelligent_robotics/install/warehouse_world/share/warehouse_world/worlds
+[1.071s] running install_egg_info
+[1.085s] Copying ../../build/warehouse_world/warehouse_world.egg-info to /home/shruti/intelligent_robotics/install/warehouse_world/lib/python3.12/site-packages/warehouse_world-0.0.0-py3.12.egg-info
+[1.085s] running install_scripts
+[1.164s] writing list of installed files to '/home/shruti/intelligent_robotics/build/warehouse_world/install.log'
+[1.182s] Invoked command in '/home/shruti/intelligent_robotics/src/warehouse_world' returned '0': PYTHONPATH=/home/shruti/intelligent_robotics/build/warehouse_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shruti/intelligent_robotics/install/warehouse_world/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/warehouse_world build --build-base /home/shruti/intelligent_robotics/build/warehouse_world/build install --record /home/shruti/intelligent_robotics/build/warehouse_world/install.log --single-version-externally-managed install_data --force
